@@ -78,7 +78,7 @@ brew install fasm
 ## 🐚 BSD (e.g. FreeBSD)
 Install FASM using pkg:
 
-``bash
+``
 pkg install fasm
 ``
 Or build it manually from source *(advanced)*:
