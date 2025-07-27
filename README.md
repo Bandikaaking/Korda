@@ -57,9 +57,8 @@ wsl --install
 
 or you can download FASM in EXE:
 
-```markdown
+
 📎 [FASM Download Page](https://flatassembler.net/download.php)
-```
 
 🍎 macOS
 First, install Homebrew if you haven't:
