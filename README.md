@@ -10,30 +10,8 @@ _A minimal x86 operating system for educational purposes_
 
 - Portable - Builds on Windows/Linux/macOS
 
-## 🛠️ Project Structure
-KORDAOS
-└── kordaOS
-    ├── build
-    │   ├── buildfor-bsd.sh
-    │   ├── buildfor-linux.sh
-    │   ├── buildfor-mac.sh
-    │   └── buildfor-windows.sh
-    ├── doc
-    ├── LICENSE
-    ├── Makefile
-    ├── README.md
-    └── src
-        ├── apps
-        │   ├── calculator.asm
-        │   ├── editor.asm
-        │   ├── game.asm
-        │   ├── info.asm
-        │   └── what_is_i2.asm
-        ├── boot.asm
-        └── kernel
-            ├── fat12.asm
-            └── kernel.asm
-🚀 Quick Start
+
+## 🚀 Quick Start
 Install dependencies:
 
 # FASM (Linux example)
@@ -43,8 +21,9 @@ Build the OS:
 **make && make run**
 **Test in QEMU:**
 
-bash
+```bash
 qemu-system-i386 -drive format=raw,file=kordaos.bin
+```
 ## 📚 Components
 >Component	Description	File
 >Bootloader	Loads kernel from disk	boot.asm
