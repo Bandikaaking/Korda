@@ -75,17 +75,22 @@ brew install fasm
 [Download FASM for macOS (Unix/Linux version)](https://flatassembler.net/fasm-1.73.30.tgz)
 
 
-🐚 BSD (e.g. FreeBSD)
+## 🐚 BSD (e.g. FreeBSD)
 Install FASM using pkg:
 
-bash
-Copy
-Edit
+``bash
 pkg install fasm
-Or build it manually from source (advanced):
-📎 FASM Source Code
+``
+Or build it manually from source *(advanced)*:
+[download fasm source code](https://flatassembler.net/fasm-1.73.30.tgz)
 
-
+- Build the source code
+```bash
+fetch https://flatassembler.net/fasm-1.73.30.tgz
+tar -xvzf fasm-1.73.30.tgz
+cd fasm
+make
+```
 
 ## 📚 Components
 >Component	Description	File
