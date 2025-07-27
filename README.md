@@ -60,7 +60,7 @@ or you can download FASM in EXE:
 
 📎 [FASM Download Page](https://flatassembler.net/download.php)
 
-🍎 macOS
+## 🍎 macOS
 First, install Homebrew if you haven't:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
